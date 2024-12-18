@@ -1,0 +1,29 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "portal para encontrar empregos",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tretake/Job_finder.git"
+  },
+  "author": "Ruan Lourenço Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tretake/Job_finder/issues"
+  },
+  "homepage": "https://github.com/tretake/Job_finder#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
