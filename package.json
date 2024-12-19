@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tretake/Job_finder#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
     "express": "^4.21.2",
     "express-handlebars": "^8.0.1",
     "sequelize": "^6.37.5",
