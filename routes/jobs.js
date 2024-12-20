@@ -5,8 +5,8 @@ const { Model } = require("sequelize");
 
 // add job via post
 
-router.get( "/test", (req,res) =>{
-    res.send("rota de teste pelo app funcionou");
+router.get( "/add", (req,res) =>{
+    res.render("add");
 });
 
 router.post( "/add" , (req,res) => {
